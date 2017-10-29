@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTTP", "HTTP", "{061C271F-7EDC-4D12-ABDE-FFEEBA7CFC41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB_SOCKET", "WEB_SOCKET", "{F67B0946-AE75-41FF-B16E-25698913794A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TCP_IP", "TCP_IP", "{A24F6FD0-3B3C-4EA4-AA87-29459B3273C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient_http", "ChatClient_http\ChatClient_http.csproj", "{88F43902-4B16-49FB-B010-83CDF29CF51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer_http", "ChatServer_http\ChatServer_http.csproj", "{58BA789C-EBE5-490C-AAB5-AD53DB2C2751}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChatClient_Web_http", "ChatClient_Web_http\", "{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63669"
+		Debug.AspNetCompiler.PhysicalPath = "ChatClient_Web_http\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63669\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63669"
+		Release.AspNetCompiler.PhysicalPath = "ChatClient_Web_http\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63669\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63669"
+		SlnRelativePath = "ChatClient_Web_http\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient_tcpip", "ChatClient_tcpip\ChatClient_tcpip.csproj", "{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer_tcpip", "ChatServer_tcpip\ChatServer_tcpip.csproj", "{CB994A38-D722-4E01-A765-C90A94FB616C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer_Socket", "ChatServer_Socket\ChatServer_Socket.csproj", "{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient_Socket", "ChatClient_Socket\ChatClient_Socket.csproj", "{88896713-9DBB-4539-AE78-4CD0611377BD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChatClient_Web_Socket", "ChatClient_Web_Socket\", "{ED060EFB-A773-4B20-AA71-2E2916FB3A22}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63755"
+		Debug.AspNetCompiler.PhysicalPath = "ChatClient_Web_Socket\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63755\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63755"
+		Release.AspNetCompiler.PhysicalPath = "ChatClient_Web_Socket\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63755\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63755"
+		SlnRelativePath = "ChatClient_Web_Socket\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F43902-4B16-49FB-B010-83CDF29CF51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F43902-4B16-49FB-B010-83CDF29CF51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F43902-4B16-49FB-B010-83CDF29CF51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F43902-4B16-49FB-B010-83CDF29CF51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BA789C-EBE5-490C-AAB5-AD53DB2C2751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BA789C-EBE5-490C-AAB5-AD53DB2C2751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BA789C-EBE5-490C-AAB5-AD53DB2C2751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BA789C-EBE5-490C-AAB5-AD53DB2C2751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB994A38-D722-4E01-A765-C90A94FB616C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB994A38-D722-4E01-A765-C90A94FB616C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB994A38-D722-4E01-A765-C90A94FB616C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB994A38-D722-4E01-A765-C90A94FB616C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88896713-9DBB-4539-AE78-4CD0611377BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88896713-9DBB-4539-AE78-4CD0611377BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88896713-9DBB-4539-AE78-4CD0611377BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88896713-9DBB-4539-AE78-4CD0611377BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED060EFB-A773-4B20-AA71-2E2916FB3A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED060EFB-A773-4B20-AA71-2E2916FB3A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED060EFB-A773-4B20-AA71-2E2916FB3A22}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED060EFB-A773-4B20-AA71-2E2916FB3A22}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88F43902-4B16-49FB-B010-83CDF29CF51D} = {061C271F-7EDC-4D12-ABDE-FFEEBA7CFC41}
+		{58BA789C-EBE5-490C-AAB5-AD53DB2C2751} = {061C271F-7EDC-4D12-ABDE-FFEEBA7CFC41}
+		{DC9B6E31-6D78-4ADF-B35D-A73FEB216CFA} = {061C271F-7EDC-4D12-ABDE-FFEEBA7CFC41}
+		{F21E9E35-DC6C-4CD1-81E9-301FC0FC9B68} = {A24F6FD0-3B3C-4EA4-AA87-29459B3273C1}
+		{CB994A38-D722-4E01-A765-C90A94FB616C} = {A24F6FD0-3B3C-4EA4-AA87-29459B3273C1}
+		{33ACC7A7-6D5B-4E80-A0F9-E41AC52BC75B} = {F67B0946-AE75-41FF-B16E-25698913794A}
+		{88896713-9DBB-4539-AE78-4CD0611377BD} = {F67B0946-AE75-41FF-B16E-25698913794A}
+		{ED060EFB-A773-4B20-AA71-2E2916FB3A22} = {F67B0946-AE75-41FF-B16E-25698913794A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8744DF27-8D05-44EF-A942-4248B986241B}
+	EndGlobalSection
+EndGlobal
